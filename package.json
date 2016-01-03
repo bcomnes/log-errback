@@ -1,0 +1,30 @@
+{
+  "name": "log-errback",
+  "version": "1.0.0",
+  "description": "Logs error backs",
+  "main": "index.js",
+  "dependencies": {
+    "sliced": "^1.0.1"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  },
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bcomnes/log-errback.git"
+  },
+  "keywords": [
+    "errback",
+    "logging"
+  ],
+  "author": "Bret Comnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcomnes/log-errback/issues"
+  },
+  "homepage": "https://github.com/bcomnes/log-errback#readme"
+}
