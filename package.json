@@ -1,7 +1,7 @@
 {
   "name": "log-errback",
   "description": "Logs the arguments from an errorback. A useful callback probe.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Bret Comnes <bcomnes@gmail.com>",
   "bugs": {
     "url": "https://github.com/bcomnes/log-errback/issues"
