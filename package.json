@@ -1,0 +1,29 @@
+{
+  "name": "log-errback",
+  "description": "Logs the arguments from an errorback. A useful callback probe.",
+  "version": "1.0.0",
+  "author": "Bret Comnes <bcomnes@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/bcomnes/log-errback/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/bcomnes/log-errback",
+  "keywords": [
+    "debug",
+    "errback",
+    "logging"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcomnes/log-errback.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js | tap-spec && standard"
+  }
+}
