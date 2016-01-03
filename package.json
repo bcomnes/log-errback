@@ -25,5 +25,8 @@
   "main": "index.js",
   "scripts": {
     "test": "tape test.js | tap-spec && standard"
+  },
+  "dependencies": {
+    "sliced": "^1.0.1"
   }
 }
