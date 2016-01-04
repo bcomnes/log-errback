@@ -29,7 +29,7 @@ asyncFunction(logErrback.sync) // logs out the arguments it receives and does no
 // say you have the following
 
 asyncFunction(function(err, results) {
-  if (err) return throw(err)
+  if (err) throw(err)
   // do stuff with results
 })
 
@@ -37,7 +37,7 @@ asyncFunction(function(err, results) {
 // logErrBack to log out whats getting passed into the callback
 
 asyncFunction(logErrback(function(err, results) {
-  if (err) return throw(err)
+  if (err) throw(err)
   // do stuff with results
 }))
 ```
